@@ -6,6 +6,7 @@ setTimeout(function tick() {
     timerId = setTimeout(tick, 20000);
 }, 0);
 
+   
 setTimeout(function tick() {
     document.getElementById('images')
     images.src = imagesarr[1];
